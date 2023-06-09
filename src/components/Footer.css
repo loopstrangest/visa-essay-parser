@@ -1,0 +1,9 @@
+.footer.blue {
+  background-color: #b3d3e5;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

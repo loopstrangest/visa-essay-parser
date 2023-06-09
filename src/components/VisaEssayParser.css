@@ -1,0 +1,112 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search-result {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-decoration: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.search-result h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.search-result p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.search-result strong {
+  color: red;
+  font-weight: bold;
+}
+
+.search-result:hover {
+  color: black;
+  background-color: #f0f0f0;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  width: "50px";
+}
+
+input[type="text"] {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="text"]::placeholder {
+  font-size: 1.2rem;
+}
+
+.sort label {
+  font-size: 1.2rem;
+}
+
+.sort button {
+  font-size: 1.2rem;
+}
+
+.result-count {
+  font-size: 1.2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  background-color: #f3f3f3;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon {
+  margin-left: 2px;
+  padding-bottom: 4px;
+  vertical-align: middle;
+}
+
+.footer a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}

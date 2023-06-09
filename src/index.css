@@ -1,0 +1,14 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title, .excerpt {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,22 @@
+ESSAY TRANSFERS:
+Copy/paste new essays from other repo into essay_text.js
+
+DONE:
+Treat hug as the word hug and not huge
+Fix overly long excerpt bug with "honour"
+Treat one two three as one and two and three
+Treat "word vomit" (in quotes) as the string "word vomit", not word or vomit
+Add support for x and not y
+Remove support for not
+x or y: show correct excerpt when y and not x
+Add support for x "y z"
+Add support for x or "y z"
+Improved footer
+Move Results into file
+
+TODO:
+
+Add a stats tab with:
+Total number of appearances
+Chart of count per year
+Chart of count per 100 bucket
